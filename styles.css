@@ -1,0 +1,153 @@
+ 
+
+    .presentacion {
+
+         color: black;
+         font-size: 60px;
+         text-align:center;
+         text-shadow:2px 2px white ;
+         border: 2px solid black;
+         padding: 30px;
+         margin: 30px;
+         
+
+        }
+        .titulo {
+            text-transform: capitalize;
+            text-align: center;
+            color: black;
+            font: size 40px;
+            font-family:"monospace", monospace, serif
+            
+            
+        }
+        .parrafo {
+
+            font-family:"Lucida Console", "Courier New", monospace ;
+            text-transform:unset;
+            margin: 50px;
+            
+        
+        }
+        * {
+
+           background-color: rgb(247, 95, 7) 
+        
+        }
+        
+        a:link, a:visited{
+
+            background-color:blanchedalmond;
+            color: black;
+            padding: 15px 25px;
+            text-align: center;
+            display: inline-block;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+       }
+        a:hover, a:active{
+
+            background-color: red;
+        }
+        .atajo link,:visited {
+            background-color:rgba(24, 5, 5, 0.021);
+            
+            
+        }
+        .atajo {
+
+            margin: 70px;
+        }
+
+        #cont {
+
+            background-color: black;
+            color: red;
+        }
+        #inicio {
+
+            font-size: 40px;
+            
+        }
+         div.imagen{
+
+            width: 50px; height: 50px;
+         }
+         div, #valores {
+         font-size: x-large;
+          color: black;
+          border: 2px black;
+          padding: 15px 50px;
+         
+        }
+        .pie {
+            
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 5px;
+         }
+         .btn {
+
+         background-color: black;
+         color: black;
+         width: 100px;
+         height: 50px;
+         border-radius: 10px;
+         justify-content: center;
+         display: flex;
+         align-items: center;
+         text-align: center;
+         }
+
+         btn p {
+
+
+            background-color: rgb(99,44,12);
+            color: antiquewhite;
+         }
+        #lista_valores {
+
+            font-size: 25px;
+            display: flex;
+            flex-direction: row;
+            margin: 25px;
+            padding: 25px;
+            justify-content: space-between;
+        
+        }
+        .carrousel_div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .carrousel {
+            display: flex;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            width: 600px;
+        }
+       .carrousel img {
+        height: 500px;
+       }
+    .carrousel_button {
+
+        cursor: pointer;
+    }
+
+.formu {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    
+}
+#barra_nav,#item {
+    float: right;
+}
+
+
+
+
